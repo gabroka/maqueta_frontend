@@ -1,0 +1,20 @@
+.logo{
+  width: auto;
+  position: relative;
+  margin: 0;
+}
+.redes{
+  border: 2px solid #525150;
+}
+
+ul li{
+  display: inline-block;
+  
+  
+  margin: 5px;
+  
+  width: 30px;
+}
+.img_representativa{
+  height: 100px;
+}
