@@ -1,20 +1,91 @@
-.logo{
+.logo {
   width: auto;
   position: relative;
   margin: 0;
 }
-.redes{
+
+.redes {
   border: 2px solid #525150;
 }
 
-ul li{
+ul li {
   display: inline-block;
-  
-  
+
+
   margin: 5px;
-  
+
   width: 30px;
 }
-.img_representativa{
-  height: 100px;
+
+.img_representativa {
+  overflow: hidden;
+  height: 200px;
+
+  border: 1px solid red;
 }
+div.img_representativa img{ /* banner */
+  position: relative;
+  height: 100%;
+  /* top: -20px; */
+  image-rendering: optimizeQuality;
+  
+}
+
+.img_personal {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.acerca_de_mi {
+  position: relative;
+  text-align: justify;
+  top: -100px;
+  max-width: 100%;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  /* box-sizing: border-box; */ 
+  /* margin-bottom: 0; */
+  margin-top: 5px;
+}
+
+/* #textAreaAcercaDeMi {
+  display: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+} */
+
+div label {
+  display: block;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.container-fluid.bg-primary {
+  margin: 0;
+  height: 20px;
+}
+.btn.btn-light{ /* modifica el boton edicion */
+  position: relative;
+  width: 8%;
+  height: 8%;
+float: right;
+top: -210px;
+/* background-color: blue */;
+}
+
+
+
+/* .col-4.border.border-1{
+  width: auto;
+} */
