@@ -27,13 +27,15 @@
     </div>
     <ul>
       <li class="redes">
-        <img src="img/square-facebook.svg">
+        <a href="https://codepen.io/gabroka" target="_blank"><img src="img/codepen.svg" alt="codepen"></a>
       </li>
       <li class="redes">
-        <img src="img/linkedin.svg">
+        <a href="www.linkedin.com/in/carlos-anibal-gabrovich-0193b3a7" target="_blank"><img src="img/linkedin.svg"
+            alt="linkedin"></a>
       </li>
       <li class="redes">
-        <img src="img/square-github.svg">
+        <a href="https://github.com/gabroka/maqueta_frontend" target="_blank"><img src="img/square-github.svg"
+            alt="github"></a>
       </li>
       <!-- Button trigger modal de login -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
@@ -48,197 +50,274 @@
     <img src="img/farmacia-simbolo.jpg" class="img-fluid rounded mx-auto d-block" alt="logo-farmacia">
   </div>
   <div class="img_fluid img_personal">
-    aca va una foto mia
+    <img src="img/mi-foto (2).jpg" alt="fotopersonal">
   </div>
 
   <!-- seccion acerca de mi -->
-  <section>
-    <div class="container acerca_de_mi ml-1 mr-1">
-      <label for="textAcercaDeMi">Acerca de mi</label>
-      <p id="textAcercaDeMi">Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo final
-        del curso Argentina
-        Programa, que nos prepara para ser programador full stack junior.
-        Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y
-        este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional.
-        Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios.
-        Aparte me gusta el running el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas.
-      </p>
-      <!-- <textarea class="form-control" id="textAreaAcercaDeMi" name="textAreaAcercaDeMi" resize="auto">Hola, bienvenidos. soy carlos anibal gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior.
+
+  <div class="container acerca_de_mi ml-1 mr-1">
+    <button type="button" class="btn btn-light btn-outline-dark d-inline acerca_de_mi" data-bs-toggle="modal"
+      data-bs-target="#editAcercaDeMi">
+      <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+
+    </button>
+    <div class="row">
+
+      <div class="col-12">
+        <label for="textAcercaDeMi">Acerca de mi</label>
+        <p id="textAcercaDeMi">Hola, bienvenidos. soy Carlos Anibal Gabrovich. Este es mi portfolio, es el trabajo
+          final
+          del curso Argentina
+          Programa, que nos prepara para ser programador full stack junior.
+          Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun
+          curso,
+          y
+          este ultimo año me decidi a estudiar mas en profundidad y hacer algo mas profesional.
+          Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios.
+          Aparte me gusta el running el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas.
+        </p>
+        <!-- <textarea class="form-control" id="textAreaAcercaDeMi" name="textAreaAcercaDeMi" resize="auto">Hola, bienvenidos. soy carlos anibal gabrovich. Este es mi portfolio, es el trabajo final del curso Argentina Programa, que nos prepara para ser programador full stack junior.
       Siempre he sido aficionado a la informatica, he ido aprendiendo por mi cuenta, leyendo y haciendo algun curso, y este ultimo año me decidi a hacer algo mas profesional.
       Soy farmaceutico desde 1995, trabajando en varias farmacias de la provincia de Entre Rios.
       Aparte me gusta el running el ciclismo, hago algunas reparaciones de biciletas, y reparaciones electricas. 
       </textarea> -->
-      <div class="container d-inline-block position-relative " id="contenedorEditAcercaDeMi">
-        <!-- <button type="button" class="btn btn- btn-outline-light disabled" data-bs-toggle="editAcercaDeMi"
-          data-bs-target="#editAcercaDeMi">
-          <img src="img/feather-solid-pluma.svg">
-        </button> -->
-        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editAcercaDeMi">
-          <img src="img/feather-solid-pluma.svg">
-
-        </button>
       </div>
     </div>
-  </section>
+
+  </div>
+
 
   <div class="container-fluid bg-primary"> <!-- linea azul divisoria -->
   </div>
 
   <!-- seccion experiencia -->
-  <div class="container m-2 border-2">
+  <section>
+
     <!-- experiencia 1 -->
-    <div class="row">
-      <div class="col-4 border border-1"> aca va una imagen sobre la experiencia
+    <h3 class="tituloMiExperiencia">Mi experiencia</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 border border-1">
+          <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+        </div>
+        <div class="col-7 border border-1">
+          <p class="textExperiencia1">
+            Farmacia Torres,
+            Localidad Hernandarias
+            Provincia Entre Rios
+            Director Técnico
+            desde 1995 hasta 1996
+          </p>
+        </div>
 
+        <div class="col-1">
+          <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+            data-bs-target="#editExperiencia_1">
+            <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+
+          </button>
+        </div>
       </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia1">
-          farmacia torres,
-          Localidad hernandarias
-          Provincia Entre Rios
-          Director tecnico
-          desde 1995 hasta 1996
-        </p>
+        <!-- experiencia 2 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia2">
+              Farmacia Rosario,
+              Localidad Paraná
+              Provincia Entre Ríos.
+              Director Técnico
+              desde 1996 hasta agosto 1998
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_1">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 3 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia3">
+              Farmacia Social ATM, de Asociacion de Trabajadores Municipales
+              Localidad Paraná
+              Provincia Entre Ríos
+              Director Técnico
+              desde septiembre 1998 hasta enero de 2003
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_3">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 4 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia4">
+              Farmacia Vivir, de emergencias medica vivir
+              Localidad Paraná
+              Provincia Entre Ríos
+              Director Técnico
+              desde 1995 hasta 1996
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_4">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 5 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia5">
+              Farmacia Social ATM, de Asociacion de Trabajadores Municipales
+              Localidad Paraná
+              Provincia Entre Ríos
+              Director Técnico
+              desde septiembre 2003 hasta enero de 2005
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_5">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 6 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/walmart-pharmacy.webp" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia6">
+              Farmacia Walmart,
+              Localidad Paraná
+              Provincia Entre Ríos
+              Director Técnico
+              desde Febrero de 2005 hasta junio de 2008
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_6">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 7 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia7">
+              Farmacia Avenida, de Liliam Cechini
+              Localidad Concordia
+              Provincia Entre Rios
+              Director Técnico
+              desde julio 2008 hasta julio de 2010
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_7">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 8 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/logo-Centro-de-vac-e-infec-Cdia.png" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia8">
+              Centro de Vacunacion e Infectologico Concordia,
+              Localidad concordia
+              Provincia Entre Rios
+              Asesoramiento en venta y vacunación
+              desde Agosto 2010 hasta agosto de 2011
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_8">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+
+        <!-- experiencia 9 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/sin_imagen.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia9">
+              Farmacia Josefina
+              Localidad Concordia
+              Provincia Entre Ríos
+              desde septiembre 2011 hasta enero de 2017
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_9">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
+        <!-- experiencia 10 -->
+        <div class="row">
+          <div class="col-4 border border-1">
+            <img src="img/fcia-ffull.jpg" class="img w-100 h-100 p-0 m-0" alt="sin_imagen">
+          </div>
+          <div class="col-7 border border-1">
+            <p class="textExperiencia10">
+              Farmacia Farmafull 4, de Sociedad TeVeoBien SRL
+              Localidad concordia
+              Provincia Entre Rios
+              desde febrero 2017 hasta actualidad
+            </p>
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-light btn-outline-dark " data-bs-toggle="modal"
+              data-bs-target="#editExperiencia_10">
+              <img src="img/stylo_pen_write_19386 _1.png" alt="edicion">
+  
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- experiencia 2 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia2">
-          farmacia Rosario,
-          Localidad parana
-          Provincia Entre Rios
-          Director tecnico
-          desde 1996 hasta agosto 1998
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 3 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia3">
-          farmacia ATM, de Asociacion de Trabajadores Municipales
-          Localidad Paraná
-          Provincia Entre Rios
-          Director Técnico
-          desde septiembre 1998 hasta enero de 2003
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 4 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia4">
-          farmacia vivir, de emergencias medica vivir
-          Localidad parana
-          Provincia Entre Rios
-          Director tecnico
-          desde 1995 hasta 1996
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 5 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia5">
-          farmacia ATM, de Asociacion de Trabajadores Municipales
-          Localidad Paraná
-          Provincia Entre Rios
-          Director Técnico
-          desde septiembre 2003 hasta enero de 2005
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 6 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia6">
-          farmacia Walmart,
-          Localidad Paraná
-          Provincia Entre Rios
-          Director Técnico
-          desde Febrero de 2005 hasta junio de 2008
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 7 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia7">
-          farmacia Avenida, de Liliam Cechini
-          Localidad Concordia
-          Provincia Entre Rios
-          Director Técnico
-          desde julio 2008 hasta julio de 2010
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 8 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia8">
-          Centro de Vacunacion e Infectologico Concordia,
-          Localidad concordia
-          Provincia Entre Rios
-          desde Agosto 2010 hasta agosto de 2011
-
-        </p>
-      </div>
-    </div>
-
-    <!-- experiencia 9 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia9">
-          Farmacia josefina
-          Localidad concordia
-          Provincia Entre Rios
-          desde septiembre 2011 hasta enero de 2017
-
-        </p>
-      </div>
-    </div>
-    <!-- experiencia 10 -->
-    <div class="row">
-      <div class="col-4 border border-1">col
-
-      </div>
-      <div class="col-8 border border-1">
-        <p class="textExperiencia10">
-          farmacia Farmafull 4, de Sociedad TeVeoBien SRL
-          Localidad concordia
-          Provincia Entre Rios
-          desde febrero 2017 hasta actualidad
-
-        </p>
-      </div>
-    </div>
-  </div>
-
+  </section>
 
 
 
@@ -247,57 +326,422 @@
   </div>
 
   <!-- seccion formacion academica -->
-  <div class="container form-academica">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Accordion Item #1
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+  <section>
+    <div class="container form-academica">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <!-- curso 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+              Curso Fisiología del Sistema Nervioso Central, Paraná febrero de 1996
+            </button>
+          </h2>
+          <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading-1"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <!-- curso 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse-2">
+              Curso de esterilización, Buenos Aires julio de 1996
+            </button>
+          </h2>
+          <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+              filled with some actual content.
+            </div>
+          </div>
+        </div>
+        <!-- curso 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse-3">
+              1ra jornada de farmacovigilancia, Paraná noviembre de 1996
+            </button>
+          </h2>
+          <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading-3"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse-4">
+              Jornada sobre residuos patogénicos, mayo de 1997
+            </button>
+          </h2>
+          <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading-4"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse-5">
+              2da jornada de esterilización, octubre de 1997
+            </button>
+          </h2>
+          <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading-5"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse-6">
+              Jornadas internacionales de esterilización, noviembre de 1997
+            </button>
+          </h2>
+          <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading-6"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse-7">
+              Curso de vacunas, mayo de 1998
+            </button>
+          </h2>
+          <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading-7"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 8 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse-8">
+              Taller de capacitación teórico-practico en inmunizaciones: vacunas especificas, junio de 1999
+            </button>
+          </h2>
+          <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading-8"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 9 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse-9">
+              Seminario clínica del marketing farmacéutico, julio de 2000
+            </button>
+          </h2>
+          <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading-9"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 10 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse-10">
+              Jornadas actualizaciones dermatológicas, julio y noviembre de 2001
+            </button>
+          </h2>
+          <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading-10"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 11 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-11">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse-11">
+              2das jornadas santafesinas y 1ras federales sobre política, economía, y gestión de medicamentos,
+              septiembre
+              de 2003
+            </button>
+          </h2>
+          <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading-11"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 12 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-12">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse-12">
+              Taller farmacovigilancia. Seguridad de los medicamentos, noviembre de 2003
+            </button>
+          </h2>
+          <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading-12"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 13 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-13">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse-13">
+              Curso a distancia, información de medicamentos para la atención farmacéutica, modulo: medicamentos
+              utilizados en el asma, 50 hs cátedra con evaluación final, julio de 2009
+            </button>
+          </h2>
+          <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading-13"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+        <!-- curso 14 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-14">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse-14">
+              Vº Curso Argentino- IIº Curso Latinoamericano de actualizacion en inmunización a distancia, 3 de diciembre
+              de
+              2011
+            </button>
+          </h2>
+          <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading-14"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <img src="img/cert_inmunizaciones_2011rz.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- curso 15 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-15">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse-15">
+              VIIIº Curso Argentino- Vº Curso Latinoamericano de actualizacion en inmunización a distancia, diciembre de
+              2014
+            </button>
+          </h2>
+          <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading-15"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <img src="img/cert_inmunizaciones_2014rz.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- curso 16 -->
+        <!-- <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-16">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse-16">
+              XIº Curso Argentino- VIIIº Curso Latinoamericano de actualizacion en inmunización a distancia, diciembre
+              de
+              2017
+            </button>
+          </h2>
+          <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading-16"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <img src="img/cert_inmunizaciones_2017.jpg" alt="">
+            </div>
+          </div>
+        </div> -->
+        <!-- curso 17 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-17">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapse-17">
+              XIº Curso Argentino- VIIIº Curso Latinoamericano de actualizacion en inmunización a distancia, diciembre
+              de
+              2017
+            </button>
+          </h2>
+          <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading-17"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <img src="img/cert_inmunizaciones_2017rz.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- curso 18 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-18">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapse-18">
+              Curso operador de PC, Windows, office, corel draw, abril de 1998
+            </button>
+          </h2>
+          <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading-18"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance,
+              a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Accordion Item #2
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-        </div>
-      </div>
-    </div>
-    
-  </div>
 
+    </div>
+  </section>
   <div class="container-fluid bg-primary"> <!-- linea azul divisoria -->
   </div>
 
   <!-- seccion hard y soft skills -->
-  <div class="container skills">
-    esta es la seccion hard y soft skills
-  </div>
+  <section>
+    <div class="container skills">
+      <label>Habilidad HTML</label>
+      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
 
-  <div class="container-fluid bg-primary"> <!-- linea azul divisoria -->
-  </div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%"></div>
+      </div>
+
+      <label>Habilidad CSS</label>
+      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="40" aria-valuemin="0"
+        aria-valuemax="100">
+
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%"></div>
+      </div>
+
+
+      <label>Habilidad JAVA</label>
+      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
+
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%"></div>
+      </div>
+      <label>Habilidad otra</label>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-primary"> <!-- linea azul divisoria -->
+    </div>
+  </section>
 
   <!-- seccion proyectos -->
-  <div class="container proyectos">
+  <section>
+    <!-- <div class="container proyectos">
     esta es la seccion proyectos
-  </div>
+  </div> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+      </div>
+
+      <div class="carousel-inner">
+        <!-- primera imagen -->
+        <div class="carousel-item active">
+          <img src="img/amAn.jpg" class="d-block w-100" alt="americanaAngeles">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          <!-- segunda imagen -->
+        </div>
+        <div class="carousel-item">
+          <img src="img/mist2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <!-- tercer imagen -->
+        <!-- <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
 
 
@@ -353,7 +797,257 @@
     </div>
   </div>
 
+  <!-- modal boton experiencia1 -->
+  <div class="modal fade" id="editExperiencia_1" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
 
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- modal boton experiencia2 -->
+  <div class="modal fade" id="editExperiencia_2" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia3 -->
+  <div class="modal fade" id="editExperiencia_3" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia4 -->
+  <div class="modal fade" id="editExperiencia_4" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia5 -->
+  <div class="modal fade" id="editExperiencia_5" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia6 -->
+  <div class="modal fade" id="editExperiencia_6" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia7 -->
+  <div class="modal fade" id="editExperiencia_7" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia8 -->
+  <div class="modal fade" id="editExperiencia_8" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia9 -->
+  <div class="modal fade" id="editExperiencia_9" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal boton experiencia10 -->
+  <div class="modal fade" id="editExperiencia_10" tabindex="-1" aria-labelledby="editExperiencia1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editExperiencia1">modificar experiencia</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div>
+              <textarea type="text" class="form-control w-auto h-auto" placeholder="agregue el nuevo texto"
+                aria-label="nombre"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 </body>
 
 </html>

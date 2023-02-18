@@ -23,34 +23,45 @@ ul li {
 
   border: 1px solid red;
 }
-div.img_representativa img{ /* banner */
+
+div.img_representativa img {
+  /* banner */
   position: relative;
   height: 100%;
   /* top: -20px; */
   image-rendering: optimizeQuality;
-  
+
 }
 
 .img_personal {
-  width: 100px;
-  height: 100px;
+
+  width: 160px;
+  height: 160px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #5cb85c;
   position: relative;
-  top: -50px;
+  top: -70px;
   left: 50px;
+  overflow: hidden;
+}
+
+.img_fluid.img_personal img {
+  position: relative;
+  z-index: 10;
+  left: -20%;
+  top: -70px;
 }
 
 .acerca_de_mi {
+  /* z-index: -1; */
   position: relative;
   text-align: justify;
-  top: -100px;
+  top: -163px;
   max-width: 100%;
   border: 2px solid #000000;
   border-radius: 10px;
-  /* box-sizing: border-box; */ 
+  /* box-sizing: border-box; */
   /* margin-bottom: 0; */
   margin-top: 5px;
 }
@@ -75,17 +86,35 @@ div label {
   margin: 0;
   height: 20px;
 }
-.btn.btn-light{ /* modifica el boton edicion */
+
+.btn.btn-light.acerca_de_mi {
+  /* modifica el boton edicion */
   position: relative;
-  width: 8%;
-  height: 8%;
-float: right;
-top: -210px;
-/* background-color: blue */;
+  left: 80%;
+  top: 15px;
+  width: auto;
+  height: auto;
+  /* background-image: url(../img/stylo_pen_write_19386\ _1.png); */
+  /* top: 21px; */
+}
+
+/* background-color: blue */
+
+
+img.w-100.h-100 { /* aplica a las imagenes en las experiencias */
+  display: block;
+
+  /* width: 50%;
+height: 50%; */
 }
 
 
+/* seccion hard y soft skills */
+.container.skills {
+  margin-bottom: 5%;
+}
 
-/* .col-4.border.border-1{
-  width: auto;
-} */
+.tituloMiExperiencia {
+text-align: center;
+text-decoration: underline;
+}
