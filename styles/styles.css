@@ -7,10 +7,19 @@
 .redes {
   border: 2px solid #525150;
 }
-
+/* .imgRedes{
+  position: relative;
+  top: -14px;
+  right: 8px;
+  background-color: transparent;
+} */
+/* button.btn{
+  width: auto;
+  height: auto;
+} */
 ul li {
   display: inline-block;
-
+  background-color: transparent;
 
   margin: 5px;
 
@@ -25,10 +34,10 @@ ul li {
 }
 
 div.img_representativa img {
-  /* banner */
+  
   position: relative;
   height: 100%;
-  /* top: -20px; */
+  
   image-rendering: optimizeQuality;
 
 }
